@@ -59,7 +59,7 @@ require_once('components/navbar.inc.php');
                     <div class="col-md-4 mt-2 mb-4">
 
                         <!-- Featured image -->
-                        <?php the_post_thumbnail( 'large', array( 'class'=> 'img-fluid z-depth-1-half mb-4')); ?>
+                        <?php the_post_thumbnail( 'medium-width', array( 'class'=> 'img-fluid z-depth-1-half mb-4')); ?>
 
                     </div>
                     <!-- End Grid column -->
@@ -104,7 +104,7 @@ require_once('components/navbar.inc.php');
                     <div class="col-md-4 mt-2 mb-4">
 
                         <!-- Featured image -->
-                        <?php the_post_thumbnail( 'large', array( 'class'=> 'img-fluid z-depth-1-half mb-4')); ?>
+                        <?php the_post_thumbnail( 'medium-width', array( 'class'=> 'img-fluid z-depth-1-half mb-4')); ?>
 
                     </div>
                     <!-- End Grid column -->    

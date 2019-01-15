@@ -86,7 +86,7 @@ require_once('components/navbar.inc.php');
                         <div class="card border-0 text-center">
                             
                             <div class="card-img-top">
-                                <?php the_post_thumbnail( array('class'=> 'img-responsive z-depth-1-half mt-2')); ?>
+                                <?php the_post_thumbnail( 'featured-small', array('class'=> 'img-responsive z-depth-1-half mt-2')); ?>
                             </div>
                     
                             <div class="card-body">
@@ -127,7 +127,7 @@ require_once('components/navbar.inc.php');
                         <div class="card border-0 text-center">
                             
                             <div class="card-img-top">
-                                <?php the_post_thumbnail( array('class'=> 'img-responsive z-depth-1-half mt-2')); ?>
+                                <?php the_post_thumbnail( 'featured-small', array('class'=> 'img-responsive z-depth-1-half mt-2')); ?>
                             </div>
                     
                             <div class="card-body">
@@ -168,7 +168,7 @@ require_once('components/navbar.inc.php');
                         <div class="card border-0 text-center">
                             
                             <div class="card-img-top">
-                                <?php the_post_thumbnail( array('class'=> 'img-responsive z-depth-1-half mt-2')); ?>
+                                <?php the_post_thumbnail( 'featured-small', array('class'=> 'img-responsive z-depth-1-half mt-2')); ?>
                             </div>
                     
                             <div class="card-body">
@@ -209,7 +209,7 @@ require_once('components/navbar.inc.php');
                         <div class="card border-0 text-center">
                             
                             <div class="card-img-top">
-                                <?php the_post_thumbnail( array('class'=> 'img-responsive z-depth-1-half mt-2')); ?>
+                                <?php the_post_thumbnail( 'featured-small', array('class'=> 'img-responsive z-depth-1-half mt-2')); ?>
                             </div>
                     
                             <div class="card-body">
@@ -250,7 +250,7 @@ require_once('components/navbar.inc.php');
                         <div class="card border-0 text-center">
                             
                             <div class="card-img-top">
-                                <?php the_post_thumbnail( array('class'=> 'img-responsive z-depth-1-half mt-2')); ?>
+                                <?php the_post_thumbnail( 'featured-small', array('class'=> 'img-responsive z-depth-1-half mt-2')); ?>
                             </div>
                     
                             <div class="card-body">
@@ -291,7 +291,7 @@ require_once('components/navbar.inc.php');
                         <div class="card border-0 text-center">
                             
                             <div class="card-img-top">
-                                <?php the_post_thumbnail( array('class'=> 'img-responsive z-depth-1-half mt-2')); ?>
+                                <?php the_post_thumbnail( 'featured-small', array('class'=> 'img-responsive z-depth-1-half mt-2')); ?>
                             </div>
                     
                             <div class="card-body">

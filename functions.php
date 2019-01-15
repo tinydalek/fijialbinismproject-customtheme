@@ -28,7 +28,16 @@ add_action( 'wp_enqueue_scripts', 'theme_enqueue_scripts' );
  */
 function mdbtheme_setup() {
     // Make sure featured images are enabled
-    add_theme_support('post-thumbnails');
+	add_theme_support('post-thumbnails');
+	
+	// Add featured image sizes
+	add_image_size( 'featured-banner', 1280, 600, true );
+	add_image_size( 'featured-small', 200, 200, true ); 
+
+	// Other image sizes for use in posts
+	add_image_size( 'medium-width', 300 );
+	add_image_size( 'medium-height', 9999, 300 );
+	add_image_size( 'medium-something', 300, 300 );
 }
 add_action('after_setup_theme', 'mdbtheme_setup');
 
