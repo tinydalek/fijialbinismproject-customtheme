@@ -56,16 +56,10 @@ require_once('components/navbar.inc.php');
                 <div class="row wow fadeIn">
 
                     <!-- Grid column -->
-                    <div class="col-md-4 mt-2 mb-4">
+                    <div class="col-md-10 mt-2 mb-2">
 
                         <!-- Featured image -->
-                        <?php the_post_thumbnail( 'medium-width', array( 'class'=> 'img-fluid z-depth-1-half mb-4')); ?>
-
-                    </div>
-                    <!-- End Grid column -->
-
-                    <!-- Grid column -->
-                    <div class="col-md-6 mt-2 mb-4">
+                        <?php the_post_thumbnail( 'medium-height', array( 'class'=> 'float-right img-fluid z-depth-1-half m-4')); ?>
                     
                         <h3 class="font-weight-bold mb-4"><?php the_title() ?></h3>
                         <div class="post-content">
@@ -90,21 +84,17 @@ require_once('components/navbar.inc.php');
                 <div class="row wow fadeIn">
 
                     <!-- Grid column -->
-                    <div class="col-md-6 mt-2 mb-4">
+                    <div class="col-md-10 mt-2 mb-2">
         
+                        <!-- Featured image -->
+                        <?php the_post_thumbnail( 'medium-width', array( 'class'=> 'float-left img-fluid z-depth-1-half m-4')); ?>
+
                         <h3 class="font-weight-bold mb-4"><?php the_title() ?></h3>
                         <div class="post-content">
                             <?php the_content(); ?>
                         </div>
 
-                    </div>
-                    <!-- End Grid column -->
-
-                    <!-- Grid column -->
-                    <div class="col-md-4 mt-2 mb-4">
-
-                        <!-- Featured image -->
-                        <?php the_post_thumbnail( 'medium-width', array( 'class'=> 'img-fluid z-depth-1-half mb-4')); ?>
+ 
 
                     </div>
                     <!-- End Grid column -->    

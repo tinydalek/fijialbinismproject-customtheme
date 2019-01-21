@@ -35,9 +35,9 @@ function mdbtheme_setup() {
 	add_image_size( 'featured-small', 200, 200, true ); 
 
 	// Other image sizes for use in posts
-	add_image_size( 'medium-width', 300 );
-	add_image_size( 'medium-height', 9999, 300 );
-	add_image_size( 'medium-something', 300, 300 );
+	add_image_size( 'medium-width', 260 );
+	add_image_size( 'medium-height', 9999, 260 );
+	add_image_size( 'medium-something', 260, 260 );
 }
 add_action('after_setup_theme', 'mdbtheme_setup');
 
