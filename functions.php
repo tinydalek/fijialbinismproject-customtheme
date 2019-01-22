@@ -138,5 +138,4 @@ function prefix_modify_query_order( $query ) {
   }
   add_action( 'pre_get_posts', 'prefix_modify_query_order' );
 
-
 ?>
