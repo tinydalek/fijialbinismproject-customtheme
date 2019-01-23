@@ -50,8 +50,8 @@ function mdb_widgets_init() {
     register_sidebar( array(
       'name'          => 'Sidebar',
       'id'            => 'sidebar',
-      'before_widget' => '',
-      'after_widget'  => '',
+      'before_widget' => '<div class="pb-4">',
+      'after_widget'  => '</div>',
       'before_title'  => '',
       'after_title'   => '',
     ) );
