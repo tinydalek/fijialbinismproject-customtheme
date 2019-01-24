@@ -26,7 +26,7 @@ require_once('components/navbar.inc.php');
                 <?php foreach($slider as $slide): ?>
                 
                     <div class="carousel-item <?php echo ($count == 0) ? 'active' : ''; ?>">
-                        <img class="" src="<?php echo wp_get_attachment_url( get_post_thumbnail_id($slide->ID)) ?>">
+                        <img class="d-block w-100" id="carousel-image" src="<?php echo wp_get_attachment_url( get_post_thumbnail_id($slide->ID)) ?>">
                     </div>
                     <?php $count++; ?>
                     <?php endforeach; ?>
@@ -54,7 +54,7 @@ require_once('components/navbar.inc.php');
 <!-- Main layout -->
 <main>
 
-    <div class="container">
+    <div class="container-fluid">
 
         <!-- Grid row -->
         <div class="row wow fadeIn">
@@ -92,7 +92,7 @@ require_once('components/navbar.inc.php');
                             <div class="card-body">
                                 <h5 class="card-title"><strong><?php the_title(); ?></strong></h5>
                                 <p class="card-text"><?php the_excerpt(); ?></p>
-                                <a href="<?php echo get_permalink() ?>" class="btn btn-outline-dark">Read more</a>
+                                <a href="<?php echo get_permalink() ?>" class="btn btn-outline-dark btn-md">Read more</a>
                             </div>
                         </div>
 
@@ -133,7 +133,7 @@ require_once('components/navbar.inc.php');
                             <div class="card-body">
                                 <h5 class="card-title"><strong><?php the_title(); ?></strong></h5>
                                 <p class="card-text"><?php the_excerpt(); ?></p>
-                                <a href="<?php echo get_permalink() ?>" class="btn btn-outline-dark">Read more</a>
+                                <a href="<?php echo get_permalink() ?>" class="btn btn-outline-dark btn-md">Read more</a>
                             </div>
                         </div>
 
@@ -174,7 +174,7 @@ require_once('components/navbar.inc.php');
                             <div class="card-body">
                                 <h5 class="card-title"><strong><?php the_title(); ?></strong></h5>
                                 <p class="card-text"><?php the_excerpt(); ?></p>
-                                <a href="<?php echo get_permalink() ?>" class="btn btn-outline-dark">Read more</a>
+                                <a href="<?php echo get_permalink() ?>" class="btn btn-outline-dark btn-md">Read more</a>
                             </div>
                         </div>
 
@@ -215,7 +215,7 @@ require_once('components/navbar.inc.php');
                             <div class="card-body">
                                 <h5 class="card-title"><strong><?php the_title(); ?></strong></h5>
                                 <p class="card-text"><?php the_excerpt(); ?></p>
-                                <a href="<?php echo get_permalink() ?>" class="btn btn-outline-dark">Read more</a>
+                                <a href="<?php echo get_permalink() ?>" class="btn btn-outline-dark btn-md">Read more</a>
                             </div>
                         </div>
 
@@ -256,7 +256,7 @@ require_once('components/navbar.inc.php');
                             <div class="card-body">
                                 <h5 class="card-title"><strong><?php the_title(); ?></strong></h5>
                                 <p class="card-text"><?php the_excerpt(); ?></p>
-                                <a href="<?php echo get_permalink() ?>" class="btn btn-outline-dark">Read more</a>
+                                <a href="<?php echo get_permalink() ?>" class="btn btn-outline-dark btn-md">Read more</a>
                             </div>
                         </div>
 
@@ -297,7 +297,7 @@ require_once('components/navbar.inc.php');
                             <div class="card-body">
                                 <h5 class="card-title"><strong><?php the_title(); ?></strong></h5>
                                 <p class="card-text"><?php the_excerpt(); ?></p>
-                                <a href="/fijialbinismproject/donate/" class="btn btn-outline-dark">Donate</a>
+                                <a href="/fijialbinismproject/donate/" class="btn btn-outline-dark btn-md">Read more</a>
                             </div>
                         </div>
 

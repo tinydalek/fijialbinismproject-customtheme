@@ -3,24 +3,20 @@
         
         <div class="container-fluid">
 
-            <!-- Collapse -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <!-- Brand -->
-            <a class="navbar-brand pt-0 waves-effect" href="">
+            <!-- Website Logo: Left -->
+            <a class="navbar-brand pt-0 waves-effect" href="/fijialbinismproject/home/">
             <?php if ( function_exists( 'the_custom_logo' ) ) {
             the_custom_logo();
             } ?>
             </a>
 
-            <button class="navbar-toggler btn btn-outline-dark" type="button" data-toggle="collapse" data-target="#" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle button">Donate
+            <!-- Navbar Icon for Small Devices -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
 
-            <!-- Links -->            
+            <!-- Navigation Menu Links: Middle -->            
             <?php
             wp_nav_menu([
             'menu'            => 'primary',
@@ -36,16 +32,18 @@
             ]);
             ?>
 
-            <div class="collapse navbar-collapse " id="navbarDonate">
-            <!-- Right -->
-            <ul class="navbar-nav nav-flex-icons">
-                <li class="nav-item">
-                    <a href="/fijialbinismproject/donate/" class="btn btn-outline-dark" role="button">Donate
-                    </a>
-                </li>
-            </ul>
-        </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Donate Button: Right -->
+                <ul class="navbar-nav nav-flex-icons">
+                    <li class="nav-item">
+                        <a href="/fijialbinismproject/donate/" class="btn btn-outline-dark" role="button">Donate
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
         </div>
     </nav>
+
     <!-- Navbar -->
 

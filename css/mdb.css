@@ -6337,7 +6337,7 @@ a.waves-effect, a.waves-light {
       color: #000; }
     @media (max-width: 600px) {
       .navbar .dropdown-menu form {
-        width: 17rem; } }
+        width: 17rem; } } 
     @media (min-width: 600px) {
       .navbar .dropdown-menu form {
         width: 22rem; } }

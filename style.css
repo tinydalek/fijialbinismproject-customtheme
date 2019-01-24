@@ -21,6 +21,13 @@ Version: 1.0
       -webkit-border-radius: 0 !important;
       border-radius: 0 !important; }
 
+  @media (min-width: 900px) {
+    #carousel-image {
+      padding-left: 60px;
+      padding-right: 60px; 
+    } 
+  }
+
   .navbar {
     height: 90px;
   }
@@ -29,16 +36,19 @@ Version: 1.0
     height: 80px;
   }
 
-  .nav-item:first-child {
-    margin-left: 120px; 
+  @media (min-width: 900px) {
+    .nav-item:first-child {
+      margin-left: 130px; 
+    } 
   }
 
   .nav-item {
     margin-left: 30px;
   }
-  
+
   .navbar-collapse {
     background-color: white;
-    border-radius: 10px;
   }
+  
+  
 

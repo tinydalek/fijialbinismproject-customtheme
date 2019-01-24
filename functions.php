@@ -50,10 +50,10 @@ function mdb_widgets_init() {
     register_sidebar( array(
       'name'          => 'Sidebar',
       'id'            => 'sidebar',
-      'before_widget' => '<div class="row justify-content-center p-4">',
+      'before_widget' => '<div class="card text-center pt-3 pr-5 pb-3 pl-5 mb-4">',
       'after_widget'  => '</div>',
       'before_title'  => '<strong>',
-      'after_title'   => '</strong><br>',
+      'after_title'   => '</strong>',
     ) );
   
   }
