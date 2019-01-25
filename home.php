@@ -60,7 +60,7 @@ require_once('components/navbar.inc.php');
         <div class="row wow fadeIn">
             
             <!-- Grid column: Featured Content -->
-            <div class="col-md-9 mt-4 mb-4">
+            <div class="card border-bottom-0 border-top-0 border-left-0 border-light col-md-9 mt-4 mb-4">
 
                 <!-- Grid row -->
                 <div class="row">
@@ -80,7 +80,7 @@ require_once('components/navbar.inc.php');
                 $query->the_post(); 
                 ?>
   
-                    <!-- Grid column: Featured Post -->
+                    <!-- Grid column: Featured Posts -->
                     <div class="col-md-6 mb-3">
 
                         <div class="card border-0 text-center">

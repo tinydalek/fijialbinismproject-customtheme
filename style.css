@@ -8,19 +8,23 @@ Version: 1.0
 */
 
   .page-footer {
-    background-color: #114A7C; }
+    background-color: #114A7C; 
+  }
   
   .blue-gradient {
     background: -webkit-linear-gradient(50deg, #45cafc, #303f9f) !important;
     background: -o-linear-gradient(50deg, #45cafc, #303f9f) !important;
-    background: linear-gradient(40deg, #45cafc, #303f9f) !important; }
-  
+    background: linear-gradient(40deg, #45cafc, #303f9f) !important; 
+  }
+
   .card-intro {
-    margin-top: 90px; }
+    margin-top: 90px; 
+  }
     
   .card-intro .card-body {
     -webkit-border-radius: 0 !important;
-    border-radius: 0 !important; }
+    border-radius: 0 !important; 
+  }
 
   @-moz-document url-prefix() {
     .card-intro {
@@ -51,7 +55,6 @@ Version: 1.0
 
   .nav-item {
     margin-left: 30px;
-  }
 
   .navbar-collapse {
     background-color: white;
