@@ -7,6 +7,14 @@ Author URI: https:/tinydalek.com
 Version: 1.0
 */
 
+
+
+  .post-content {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1.1em;
+  }
+  
   .page-footer {
     background-color: #114A7C; 
   }
@@ -55,6 +63,8 @@ Version: 1.0
 
   .nav-item {
     margin-left: 30px;
+    font-weight: 400;
+  }
 
   .navbar-collapse {
     background-color: white;
