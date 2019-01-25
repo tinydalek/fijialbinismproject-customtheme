@@ -52,7 +52,7 @@ function mdb_widgets_init() {
       'id'            => 'sidebar',
       'before_widget' => '<div class="card text-center pt-3 pr-5 pb-3 pl-5 mb-4">',
       'after_widget'  => '</div>',
-      'before_title'  => '<strong>',
+      'before_title'  => '<strong class="pb-1">',
       'after_title'   => '</strong>',
     ) );
   

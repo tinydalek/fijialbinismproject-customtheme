@@ -7,7 +7,7 @@ require_once('components/navbar.inc.php');
     <!-- Intro: Carousel Slider -->
     <div class="card card-intro blue-gradient">
 
-        <div class="card-body white-text rgba-black-light text-center pt-2 pb-2">
+        <div class="card-body white-text rgba-black-light text-center pt-1 pb-2">
 
             <div id="carousel-images" class="carousel slide" data-ride="carousel">
             

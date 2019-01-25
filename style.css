@@ -16,10 +16,17 @@ Version: 1.0
     background: linear-gradient(40deg, #45cafc, #303f9f) !important; }
   
   .card-intro {
-    margin-top: 67px; }
-    .card-intro .card-body {
-      -webkit-border-radius: 0 !important;
-      border-radius: 0 !important; }
+    margin-top: 90px; }
+    
+  .card-intro .card-body {
+    -webkit-border-radius: 0 !important;
+    border-radius: 0 !important; }
+
+  @-moz-document url-prefix() {
+    .card-intro {
+      margin-top: 60px;
+    }
+  }
 
   @media (min-width: 900px) {
     #carousel-image {
@@ -50,5 +57,5 @@ Version: 1.0
     background-color: white;
   }
   
-  
+
 
