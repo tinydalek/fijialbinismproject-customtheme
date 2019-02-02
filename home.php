@@ -321,7 +321,7 @@ require_once('components/navbar.inc.php');
             <!-- End Grid column: Featured Content -->
 
             <!-- Grid column: Sidebar -->
-            <div class="col-md-3 mt-4 mb-4">
+            <div class="col-md-3 mt-4 mb-6">
 
                 <?php if ( is_active_sidebar( 'sidebar' ) ) : ?>
                 <?php dynamic_sidebar( 'sidebar' ); ?>
