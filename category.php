@@ -32,6 +32,8 @@ require_once('components/navbar.inc.php');
     </header>
     <!-- Main Navigation -->
 
+    <br>
+
     <!-- Main layout -->
     <main>
 
@@ -48,7 +50,7 @@ require_once('components/navbar.inc.php');
 
 
             <!-- Section: Post -->
-            <section class="mt-3">
+            <section class="mt-2">
 
             <?php if(($i % 2) == 0) { ?>
 
@@ -56,13 +58,13 @@ require_once('components/navbar.inc.php');
                 <div class="row wow fadeIn">
 
                     <!-- Grid column -->
-                    <div class="col-md-10 mt-2 mb-2">
+                    <div class="col-md-10 mt-2">
 
                         <!-- Featured image -->
-                        <?php the_post_thumbnail( 'medium-height', array( 'class'=> 'float-right img-fluid z-depth-1-half m-4')); ?>
+                        <?php the_post_thumbnail( 'medium-height', array( 'class'=> 'float-right img-fluid z-depth-1-half mt-4 ml-4 mb-2')); ?>
                     
-                        <h3 class="font-weight-bold mb-4"><?php the_title() ?></h3>
-                        <div class="post-content">
+                        <h3 class="font-weight-bold mb-2 mr-2"><?php the_title() ?></h3>
+                        <div class="post-content mr-2">
                             <?php the_content(); ?>
                         </div>
 
@@ -76,7 +78,7 @@ require_once('components/navbar.inc.php');
             <!-- End Section: Post -->
 
             <!-- Section: Post -->
-            <section class="mt-3">
+            <section class="mt-2">
 
             <?php } elseif (($i % 2) !== 0) { ?>
 
@@ -84,13 +86,13 @@ require_once('components/navbar.inc.php');
                 <div class="row wow fadeIn">
 
                     <!-- Grid column -->
-                    <div class="col-md-10 mt-2 mb-2">
+                    <div class="col-md-10">
         
                         <!-- Featured image -->
-                        <?php the_post_thumbnail( 'medium-width', array( 'class'=> 'float-left img-fluid z-depth-1-half m-4')); ?>
+                        <?php the_post_thumbnail( 'medium-width', array( 'class'=> 'float-left img-fluid z-depth-1-half mt-4 mr-4 mb-2')); ?>
 
-                        <h3 class="font-weight-bold mb-4"><?php the_title() ?></h3>
-                        <div class="post-content">
+                        <h3 class="font-weight-bold mb-2 ml-2"><?php the_title() ?></h3>
+                        <div class="post-content ml-2">
                             <?php the_content(); ?>
                         </div>
 

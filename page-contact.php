@@ -35,19 +35,21 @@ if ( have_posts() ) {
     </header>
     <!-- End Header -->
     
+    <br>
+
     <!-- Main layout -->
     <main>
         <div class="container">
     
             <!-- Section: Post -->
-            <section class="mt-3">
+            <section class="mt-2">
     
                 <!-- Grid row -->
                 <div class="row wow fadeIn">
     
     
                     <!-- Grid column -->
-                    <div class="col-md-8 mt-2 mb-4">
+                    <div class="col-md-8 mb-4">
     
                         <div class="post-content">
                             <?php the_content(); ?>
